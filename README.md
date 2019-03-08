@@ -8,7 +8,7 @@ Kurssilla tutustutaan ohjelmistokehityksen periaatteisiin sekä menetelmiin ja s
 
 Kurssin kolmella ensimmäisellä viikolla on muutama ohjauksessa tai omatoimisesti tehtävä harjoitustehtävä. Kurssin pääpainon muodostaa viikolla 2 aloitettava, itsenäisesti tehtävä harjoitustyö. Työtä on tarkoitus edistää pala palalta [viikoittaisten](https://github.com/mluukkai/ohjelmistotekniikka-kevat2019#aikataulu) tavoitteiden ohjaamana. 
 
-Kurssin arvostelu perustuu pääasiassa harjoitustyöstä saataviin pisteisiin. Osa pisteistä kertyy [aikatauluun](https://github.com/mluukkai/Ohjelmistotekniikka2018#aikataulu) määriteltyjen viikoittaisten välitavoitteiden kautta, osa taas perustuu työn lopulliseen palautukseen.
+Kurssin arvostelu perustuu pääasiassa harjoitustyöstä saataviin pisteisiin. Osa pisteistä kertyy [aikatauluun](https://github.com/mluukkai/ohjelmistotekniikka-kevat2019#aikataulu) määriteltyjen viikoittaisten välitavoitteiden kautta, osa taas perustuu työn lopulliseen palautukseen.
 
 Kurssilla ei ole koetta. Harjoitustyö tulee tehdä kurssin aikataulujen puitteissa. Kesken jäänyttä harjoitustyötä ei voi jatkaa seuraavalla kurssilla (syksyllä 2019), joten **muista varata riittävästi aikaa (10-15h viikossa) koko periodin ajaksi!**
 
@@ -39,7 +39,7 @@ Jos huomaat tehtävissä tai muussa materiaalissa kirjoitusvirheitä, kirjaudu G
   - viikko 7 [harjoitustyö](https://github.com/mluukkai/ohjelmistotekniikka-kevat2019/blob/master/tehtavat/harjoitustyo_viikko7.md)
 - Kurssin referenssisovellus [OtmTodoApp](https://github.com/mluukkai/OtmTodoApp)
   - Sovelluksen tarkoituksena on demonstroida erästä tapaa tehdä suurin piirtein täysiin pisteisiin riittävä dokumentaatio ja testaus projektillesi. Itse ohjelma on sen verran suppea, että saadaksesi kurssilta arvosanan 5 joudut tekemään hieman laajemman sovelluksen. 
-- [Labtool](https://studies.cs.helsinki.fi/labtool/courses/TKT20002.2018.S.K.1)
+- [Labtool](https://studies.cs.helsinki.fi/labtool/courses/TKT20002.2019.K.K.1)
 - Ohjeita 
   - Kaikki ohjeista eivät ole kurssin alussa vielä ajankohtaisia. Kaikkeen tärkeään tulee aikanaan linkki laskareihin tai harjoitustöiden viikkotavoitteisiin
   - [Aiheideoita ja ohjeita työn harjoitustyön aloittamiseen](https://github.com/mluukkai/ohjelmistotekniikka-kevat2019/blob/master/web/tyon_aloitus.md)
@@ -48,7 +48,7 @@ Jos huomaat tehtävissä tai muussa materiaalissa kirjoitusvirheitä, kirjaudu G
   - [Maven](https://github.com/mluukkai/ohjelmistotekniikka-kevat2019/blob/master/web/maven.md)
   - [Checkstyle](https://github.com/mluukkai/ohjelmistotekniikka-kevat2019/blob/master/web/checkstyle.md)  
   - [JavaDoc](https://github.com/mluukkai/ohjelmistotekniikka-kevat2019/blob/master/web/javadoc.md)
-  - [koodin laatu](https://github.com/mluukkai/Ohjelmistotekniikka20188/blob/master/web/koodin_laatuvaatimukset.md)
+  - [koodin laatu](https://github.com/mluukkai/ohjelmistotekniikka-kevat2019/blob/master/web/koodin_laatuvaatimukset.md)
 - Työkaluja kaavioiden piirtoon
   - <http://yuml.me/> luokkakaaviot
   - <https://www.websequencediagrams.com/> sekvenssikaavioihin
@@ -58,6 +58,11 @@ Jos huomaat tehtävissä tai muussa materiaalissa kirjoitusvirheitä, kirjaudu G
 
 Pajaohjaus alkaa aina akateemisella vartilla ja kestää tasaan asti, ohjaajien välillä on siis 15 minuutin tauko.
 
+| Kellonaika | Maanantai | Tiistai | Keskiviikko | Torstai | Perjantai |
+|:-:|:-:|:-:|:-:|:-:|:-:|
+| 10 - 12 | Olli T | Heli |Olli K-H | Harri |
+| 12 - 14 | | Atte | Erkka | 
+| 14 - 16 | | Kevin | Jussi | Maaret | Virva
 
 ## Aikataulu 
 
@@ -113,7 +118,7 @@ Palautuksen deadline ti 16.4 klo 23:59
 
 ### viikko 6
 
-Palautuksen deadline ti 23.4 klo 23:59
+Palautuksen deadline pe 26.4 klo 23:59
 
 - Harjoitustyö (3p)
   - Release 2

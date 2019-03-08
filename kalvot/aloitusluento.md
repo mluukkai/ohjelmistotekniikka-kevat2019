@@ -1,6 +1,6 @@
 % Ohjelmistotekniikka
-% Matti Luukkainen, Olli Keski-Hynnilä ja 6 ohjaajaa
-% 29.10.2018
+% Matti Luukkainen, Olli Keski-Hynnilä ja 9 ohjaajaa
+% 11.3.2019
 
 # Ohjelmistotekniikka
 
@@ -10,7 +10,7 @@
     - Ohjelmoinnin jatkokurssi
     - Tietokantojen perusteet
 - Hyödyllinen esitieto: Tietokone työvälineenä
-- Kurssimateriaali https://github.com/mluukkai/Ohjelmistotekniikka2018
+- Kurssimateriaali https://github.com/mluukkai/ohjelmistotekniikka-kevat2019
 - Kurssi on sisällöltään ja kurssikoodiltaan sama kuin viime kevään kurssi _Ohjelmistotekniikan menetelmät_
     - viime kevään OTM taas on nimeltään sama, mutta sisällöltään radikaalisti poikkeava ennen vuotta 2018 pidetystä kurssista OTM
 
@@ -25,25 +25,25 @@
 . . .
 
 - Harjoitustyö tulee tehdä kurssin aikataulujen puitteissa
-- Kesken jäänyttä harjoitustyötä ei voi jatkaa seuraavalla kurssilla (keväällä 2019)
+- Kesken jäänyttä harjoitustyötä ei voi jatkaa seuraavalla kurssilla (syksyllä 2019)
 -  Muista siis varata riittävästi aikaa (10-15h viikossa) koko periodin ajaksi!
 
 
 # Luento, deadlinet ja ohjaus
 
-- Kurssilla on vain yksi luento **nyt** eli ma 29.10. klo 14-16 B123
+- Kurssilla on vain yksi luento **nyt** eli ma 11.3. klo 14-16 A111
 - Laskareiden ja harjoitustyön välitavoitteiden viikoittaiset deadlinet _tiistaina klo 23:59_
 - Paja salissa BK107
 
 alku  ma  ti  ke  to  pe
 ----  --- --- --- --- ---
-10                     x
-12    x   x   x         
-14    x   x   x         
+10    x   x   x    x    
+12        x   x         
+14        x   x    x   x
 16                      
 18                       
 
-- Paja alkaa huomenna 30.10
+- Paja alkaa huomenna 12.3
 
 # Arvosteluperusteet
 
@@ -192,7 +192,7 @@ Vaatimusten kirjaamisesta voi ottaa tarkemmin mallia sovelluksen GitHub-reposito
 . . .
 
 - Vesiputousmallissa edellä esitellyt ohjelmistotuotannon vaiheet suoritetaan peräkkäin
-![](https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/l-1.png){ width=400 }
+![](https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/l-1.png){ width=400 }
 
 . . .
 
@@ -229,7 +229,7 @@ Vaatimusten kirjaamisesta voi ottaa tarkemmin mallia sovelluksen GitHub-reposito
 
 # Ketterä ohjelmistokehitys
 
-![](https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/l-2.png){ width=400 }
+![](https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/l-2.png){ width=400 }
 
 Teemme kurssin harjoitustyötä ketterässä hengessä viikon mittaisilla iteraatioilla
 
@@ -278,19 +278,19 @@ Teemme kurssin harjoitustyötä ketterässä hengessä viikon mittaisilla iteraa
 - Javassa lähdekoodi dokumentoidaan käyttäen JavaDoc-työkalua
 - Dokumentointi tapahtuu kirjoittamalla koodin yhteyteen sopivasti muotoiltuja kommentteja
 
-![](https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/k-1.png){ width=400 }
+![](https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/k-1.png){ width=400 }
 
 # JavaDoc
 
 Sovelluksen JavaDocia voi tarkastella selaimen avulla
 
-![](https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/l-7.png){ width=400 }
+![](https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/l-7.png){ width=400 }
 
 # JavaDoc
 
 NetBeans osaa näyttää ohjelmoidessa koodiin määritellyn JavaDocin
 
-![](https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/l-14.png)
+![](https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/l-14.png)
 
 
 #
@@ -337,13 +337,13 @@ public class Todo {
 - Yhdellä käyttäjällä voi olla montoa Todoa
 - Todo liittyy aina yhteen käyttäjään
 
-![](https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/l-3a.png){ width=450 }
+![](https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/l-3a.png){ width=450 }
 
 # Todo-sovelluksen tietosisällön luokkakaavio
 
 - Yleensä ei ole mielekästä kuvata luokkia tällä tarkkuudella, eli luokkakaavioihin riittää merkitä luokan nimi
 
-![](https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/l-4.png){ width=300 }
+![](https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/l-4.png){ width=300 }
 
 - Kaaviota parempi paikka metodien kuvaamiselle on koodiin liittyvä JavaDoc-dokumentaatio 
 
@@ -351,7 +351,7 @@ public class Todo {
 
 - Jos Todo-sovelluksessa olisi normaalin käyttäjän eli luokan _User_ perivä ylläpitäjää kuvaava luokka _SuperUser_, merkattaisiin se luokkakaavioon seuraavasti
 
-![](https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/l-9.png){ width=300 }
+![](https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/l-9.png){ width=300 }
 
 - Rajapinnan toteutus merkitään samalla tavalla eli valkoisella nuolenpäällä
 
@@ -367,7 +367,7 @@ public class Todo {
 
 . . .
 
-![](https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/l-18.png){ width=400 }
+![](https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/l-18.png){ width=400 }
 
 # Maksukortti ja kassapääte
 
@@ -396,7 +396,7 @@ public class Kassapaate {
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-![](https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/k-2.png){ width=150 }
+![](https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/k-2.png){ width=150 }
 :::
 ::: {.column width="50%"}
 
@@ -409,10 +409,10 @@ public class Kassapaate {
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
-![](https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/k-2.png){ width=150 }
+![](https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/k-2.png){ width=150 }
 :::
 ::: {.column width="50%"}
-![](https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/l-11.png){ width=100 }
+![](https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/l-11.png){ width=100 }
 :::
 ::::::::::::::
 
@@ -423,7 +423,7 @@ public class Kassapaate {
 - Luokka- ja pakkauskaaviot kuvaavat ohjelman rakennetta
 - Ohjelman toiminta ei kuitenkaan tule niistä ilmi millään tavalla. 
 - Esim. Ohpen Unicafe-tehtävä
-![](https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/l-15.png){ width=400 }
+![](https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/l-15.png){ width=400 }
 - Vaikka kaavioon on nyt merkitty metodien nimet, ei ohjelman toimintalogiikka selviä kaaviosta
 - Esim. mitä tapahtuu, kun maksukortilla jolla on rahaa 3 euroa, ostataan edullinen lounas?
 
@@ -453,7 +453,7 @@ public boolean syoEdullisesti(Maksukortti kortti) {
 
 # Onnistunut ostos sekvenssikaaviona
 
-![](https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/l-16.png){ width=300 }
+![](https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/l-16.png){ width=300 }
 
 - Sekvenssikaaviossa oliot ovat laatikoita, joista lähtee alaspäin olion "elämänlanka"
 - Aika etenee ylhäältä alas
@@ -464,7 +464,7 @@ public boolean syoEdullisesti(Maksukortti kortti) {
 
 Mitä tapahtuu, jos maksukortin saldo on 2 euroa, eli vähemmän kuin lounaan hinta:
 
-![](https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/l-17.png){ width=300 }
+![](https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/l-17.png){ width=300 }
 
 . . .
 

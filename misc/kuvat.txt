@@ -1,0 +1,34 @@
+Luokkakaaviot
+
+[User|name:String;username:String|getName();getUsername()]1-*[Todo|id:int;content:String;done:boolean|getId();getContent();getUser();isDone();setDone();]
+
+[TodoService] -.-> [ToDo]
+[TodoService] 1-1 [ToDoDao]
+[TodoService] 0..1-loggedIn-1 [User]
+[User] 1-* [Todo]
+[TodoDao] 1-* [Todo]
+
+[TodoService] 1-1 [<interface> ToDoDao]
+[<interface> ToDoDao] ^-[FileToDoDao]
+[<interface> ToDoDao] ^-[SQLToDoDao]
+[<interface> ToDoDao] ^-[FakeToDoDao]
+
+main->*arto: new Henkilo("Hellas", 1500, "1234-12345")
+main->rekisteri: lisaa(arto)
+main->*sasu: new Henkilo("Tarkoma", 6500, "4455-123123")
+main->rekisteri: lisaa(sasu)
+main->+rekisteri: asetaPalkka("Hellas", 2100)  
+rekisteri->arto: setPalkka(3500)
+rekisteri-->-main:
+main->+rekisteri: suoritaPalkanmaksu()
+rekisteri->+arto: getPalkka()
+arto-->-rekisteri: 3500
+rekisteri->+arto: getTili()
+arto-->-rekisteri: 1234-12345
+rekisteri->pankki: maksaPalkka(3500, 1234-12345)
+rekisteri->+sasu: getPalkka()
+sasu-->-rekisteri: 6500
+rekisteri->+sasu: getTili()
+sasu-->-rekisteri: 4455-123123
+rekisteri->pankki: maksaPalkka(6500, 4455-123123)
+rekisteri-->-main:
