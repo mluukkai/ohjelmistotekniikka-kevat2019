@@ -56,14 +56,14 @@ Jos huomaat tehtävissä tai muussa materiaalissa kirjoitusvirheitä, kirjaudu G
 
 ## Pajaohjauksen aikatauluja
 
-Aikataulu ilmestyy ennen kurssin alkua, ohjausta noin 20 tuntia viikossa
+Pajaohjaus alkaa aina akateemisella vartilla ja kestää tasaan asti, ohjaajien välillä on siis 15 minuutin tauko.
 
 
 ## Aikataulu 
 
 ### viikko 1
 
-Palautuksen deadline xxx klo 23:59
+Palautuksen deadline ti 19.3 klo 23:59
 
 - Maanantaina 11.3. klo 14-16 kurssin aloitustilaisuus salissa A111
 - Komentorivi- ja Git-harjoittelu (2p)
@@ -72,7 +72,7 @@ Palautuksen deadline xxx klo 23:59
 
 ### viikko 2
 
-Palautuksen deadline xxx klo 23:59
+Palautuksen deadline ti 26.3 klo 23:59
 
 - Harjoitustyön aiheen alustava määrittelydokumentti (1p)
   - katso tarkemmin [täältä](https://github.com/mluukkai/ohjelmistotekniikka-kevat2019/blob/master/tehtavat/harjoitustyo_viikko2.md) 
@@ -82,7 +82,7 @@ Palautuksen deadline xxx klo 23:59
 
 ### viikko 3
 
-Palautuksen deadline ti 20.11. klo 23:59
+Palautuksen deadline ti 2.4. klo 23:59
 
 - Harjoitustyön koodin runko valmiina (2p)
   - katso tarkemmin [täältä](https://github.com/mluukkai/ohjelmistotekniikka-kevat2019/blob/master/tehtavat/harjoitustyo_viikko3.md) 
@@ -90,7 +90,7 @@ Palautuksen deadline ti 20.11. klo 23:59
 
 ### viikko 4
 
-Palautuksen deadline xxx klo 23:59
+Palautuksen deadline ti 9.4 klo 23:59
 
 - Harjoitustyö (3p)
   - Ohjelman perustoiminnallisuus 
@@ -101,7 +101,7 @@ Palautuksen deadline xxx klo 23:59
 
 ### viikko 5
 
-Palautuksen deadline xxx klo 23:59
+Palautuksen deadline ti 16.4 klo 23:59
 
 - Harjoitustyö (3p)
   - Release 1 
@@ -113,7 +113,7 @@ Palautuksen deadline xxx klo 23:59
 
 ### viikko 6
 
-Palautuksen deadline xxx klo 23:59
+Palautuksen deadline ti 23.4 klo 23:59
 
 - Harjoitustyö (3p)
   - Release 2
@@ -124,6 +124,6 @@ Palautuksen deadline xxx klo 23:59
 
 ### viikko 7
 
-Lopullisen palautuksen deadline xxx klo 23:59
+Lopullisen palautuksen deadline pe 3.5 klo 23:59
 
 - [loppupalautuksen ohjeet](https://github.com/mluukkai/ohjelmistotekniikka-kevat2019/blob/master/tehtavat/harjoitustyo_viikko7.md) 
