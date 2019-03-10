@@ -1,6 +1,6 @@
 # Viikon 1 tehtävät
 
-Tehtävät on tarkoitus tehdä joko pajassa tai omatoimisesti. Tehtävien palautuksen deadline on xxx. klo 23:59
+Tehtävät on tarkoitus tehdä joko pajassa tai omatoimisesti. Tehtävien palautuksen deadline on 19.3. klo 23:59
 
 Tehtävät palautetaan Githubin ja Labtoolin avulla. Lisää palautuksesta myöhemmin. Osa tehtävistä ei näy palautuksesta mitenkään. Niiden tekemättä jättäminen näkyy puuttuvana osaamisena ja saattaa aiheuttaa myöhemmin hankaluuksia.
 
@@ -46,16 +46,16 @@ Kirjauduttuasi laitoksen palvelimelle, tee seuraavat toimenpiteet:
 * luo kotihakemistoosi hakemisto _kurssit_
   * **HUOM** joidenkin kohdalla melkillä on ollut ongelmia kotihakemiston asetuksissa ja esim. hakemiston luomisen seurauksena on virhe 'permission denied'. Jos törmäät ongelmaan, lähetä viesti osoitteeseen _it-support@cs.helsinki.fi_ ja raportoi ongelmaksi "ei oikeuksia kotihakemistoon melkillä"
   * kokeile myös jos kirjaantuminen toiselle koneelle, esim. _melkinpaasi.cs.helsinki.fi_ tuottaisi paremman tuloksen
-* luo hakemistolle _kurssit_ alihakemisto _ot2018_
+* luo hakemistolle _kurssit_ alihakemisto _ot2019
 * ja luomallesi hakemistolle alihakemisto _viikko1_
 * mene kotihakemistoosi ja luo sen alle hakemisto _temp_
 * mene hakemistoon _temp_
-* hae osoitteessa _https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/misc/Unicafe.zip_ oleva tiedosto [wget](https://en.wikipedia.org/wiki/Wget)-ohjelmalla
+* hae osoitteessa _https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/misc/Unicafe.zip_ oleva tiedosto [wget](https://en.wikipedia.org/wiki/Wget)-ohjelmalla
   * wget toimii siten, että sille annetaan ladattava tiedosto parametriksi
 * haettu tiedosto on _zip-paketti_, pura se _unzip_-ohjelmalla
   * myös unzip toimii siten, että sille annetaan purettava tiedosto parametriksi
 * komennon suorittamisen jälkeen hakemistoon on ilmestynyt hakemisto _Unicafe_
-* siirrä hakemisto hakemiston _kurssit/ot2018/viikko1_ alihakemistoksi
+* siirrä hakemisto hakemiston _kurssit/ot2019/viikko1_ alihakemistoksi
 * poista zip-paketti
 * poista hakemisto _temp_
 * mene nyt uudessa paikassa olevaan hakemistoon _Unicafe_
@@ -70,7 +70,7 @@ Komentoriviä käyttäessä kannattaa ehdottomasti totutella _tab-completen_ kä
 
 ![](https://github.com/mluukkai/otm2016/raw/master/img/tab.jpg)
 
-Tab:ia painamalla voit komentorivillä täydentää kirjoittamasi komennon nimen tai parametrin. Esim. jos olet siirtymässä hakemistoon nimeltään _ohjelmistotekniikka-syksy-2018_, riittää, että kirjoitat <code>cd oh</code> ja painat tabia. Jos hakemistossasi ei ole muita tiedostoja tai hakemistoja, jotka alkavat merkeillä _oh_, nimi täydentyy. Jos on, niin voit joutua kirjoittamaan merkin tai kaksi lisää. Jos tiedostoja on useampia etkä ole varma oikeasta nimestä, painamalla tabia useamman kerran näet mahdolliset vaihtoehdot.
+Tab:ia painamalla voit komentorivillä täydentää kirjoittamasi komennon nimen tai parametrin. Esim. jos olet siirtymässä hakemistoon nimeltään _ohjelmistotekniikka-kevat-2019_, riittää, että kirjoitat <code>cd oh</code> ja painat tabia. Jos hakemistossasi ei ole muita tiedostoja tai hakemistoja, jotka alkavat merkeillä _oh_, nimi täydentyy. Jos on, niin voit joutua kirjoittamaan merkin tai kaksi lisää. Jos tiedostoja on useampia etkä ole varma oikeasta nimestä, painamalla tabia useamman kerran näet mahdolliset vaihtoehdot.
 
 Myös komentojen nimet voi täydentää tab-completella. Esim. haluat avat _chromium-browser_ web-selaimen komentoriviltä, riittää että kirjoitat <code>chro</code> ja painat tabia. Komennon nimi täydentyy.
 
@@ -319,7 +319,7 @@ Vasemmalla yläkulmassa näet kaikki commitit. Uusin tilanne ylimpänä. Uusimma
 
 Vastaava näkymä OSX:n [Sourcetree](https://www.sourcetreeapp.com)-ohjelmalla tarkasteltaessa:
 
-![](https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/lh1-1a.png)
+![](https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/lh1-1a.png)
 
 Seuraavaa tehtävää tekiessäsi kannattaa terminaaliin avata uusi välilehti, jotta voit pitää gitk:ta käynnissä.
 
@@ -470,7 +470,7 @@ Siirrytään sitten GitHubin käyttöön
   * uuden repositorion luomistoiminto löytyy vasemman ylänurkan plus-symboolin alta
 * **Älä laita rastia** kohtaan *Initialize this repository with a README*
 
-![](https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/lh1-2a.png)
+![](https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/lh1-2a.png)
 
 * luo repositorio painamalla vihreää _Create repository_ -nappia
 
@@ -479,7 +479,7 @@ Seuraavaksi haluamme liittää GitHubiin luodun repositorion juuri luodun paikal
 * etärepositorion lisääminen onnistuu GitHubiin avautuvan näkymän ohjeiden mukaan 
 * varmista, että kohdasta "Quick setup..." on valittu **SSH**
 
-![](https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/lh1-3a.png)
+![](https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/lh1-3a.png)
 
 - kopioi ylempi rivi kohdasta *...or push an existing repository from the command line*
 - omassa esimerkissäni rivi on
@@ -515,7 +515,7 @@ and the repository exists.
 
 ## Julkinen avain
 
-Jos olet jo asettanut julkisen avaimen esim. Tietokantojen perusteissa, pushauksen pitäisi toimia ja voit siirtyä [seuraavaan kohtaan](https://github.com/mluukkai/Ohjelmistotekniikka2018/blob/master/tehtavat/viikko1.md#kertausta).
+Jos olet jo asettanut julkisen avaimen esim. Tietokantojen perusteissa, pushauksen pitäisi toimia ja voit siirtyä [seuraavaan kohtaan](https://github.com/mluukkai/ohjelmistotekniikka-kevat2019/blob/master/tehtavat/viikko1.md#kertausta).
 
 Pushaus ei toimi. Nyt kyse on siitä, että git haluaisi suorittaa [julkisen avaimen](https://the.earth.li/~sgtatham/putty/0.55/htmldoc/Chapter8.html) autentikoinnin. Se ei kuitenkaan onnistu koska emme ole kertoneet gitille julkista salausavaintamme.
 
@@ -575,7 +575,7 @@ Branch master set up to track remote branch master from origin.
   * tiedostojen urlin saat navigoimalla GitHubissa tiedostoon ja kopioimalla osoitteen selaimen osoiteriviltä 
 * Repositoriosi tulee näyttää suunnilleen seuraavalta
 
-![](https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/lh1-4a.png)
+![](https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/lh1-4a.png)
 
 * jos teit kaiken oikein, pääset README.md:ssä olevia linkkejä klikkaamalla näkemään linkitettyjen tiedostojen sisällön
 
@@ -636,7 +636,7 @@ Nyrkkisääntönä kannattaa pitää aina sitä, että kun rupeat työskentelem�
 
 ## Labtool
 
-Rekisteröi nyt omat tietosi ja luomasi repositorio [Labtooliin](https://studies.cs.helsinki.fi/labtool/courses/TKT20002.2018.S.K.1). Valitse kurssiksi _Ohjelmistotekniikka_ jos joudut tekemään valinnan. 
+Rekisteröi nyt omat tietosi ja luomasi repositorio [Labtooliin](https://studies.cs.helsinki.fi/labtool/courses/TKT20002.2019.K.K.1). Valitse kurssiksi _Ohjelmistotekniikka_ jos joudut tekemään valinnan. 
 
 Labtool kysyy myös harjoitustyön aihetta, jos et ole vielä varma aiheestasi voit muuttaa aiheen nimeä myöhemmin.
 
