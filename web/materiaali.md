@@ -13,15 +13,15 @@ Kurssin oppimistavoitteet ovat edelleen suunilleen samat kuin aiemmin. Kurssin s
 
 Kurssin suoritusmuoto poikkeaa radikaalisti aiemmasta viikoittaiset luennot ja laskuharjoitukset sisältävästä kurssista, nykyinen OTM muistuttaakin läheisesti entistä Ohjelmoinnin harjoitustyötä.
 
-Kurssin ensimmäisen kolmen viikon aikana harjoitellaan versionhallintaa, yksikkötestausta sekä UML-kaavioiden tekemistä. Toisesta viikosta alkaen aloitetaan oman harjoitustyön tekeminen. Harjoitustyön tekemisen ohessa osoitetaan riittävä osaaminen kurssin oppimistavoitteiden suhteen, koetta kurssilla ei ole. Tarkemmat arvosteluperusteet [täällä](https://github.com/mluukkai/Ohjelmistotekniikka2018/blob/master/web/arvosteluperusteet.md).
+Kurssin ensimmäisen kolmen viikon aikana harjoitellaan versionhallintaa, yksikkötestausta sekä UML-kaavioiden tekemistä. Toisesta viikosta alkaen aloitetaan oman harjoitustyön tekeminen. Harjoitustyön tekemisen ohessa osoitetaan riittävä osaaminen kurssin oppimistavoitteiden suhteen, koetta kurssilla ei ole. Tarkemmat arvosteluperusteet [täällä](https://github.com/mluukkai/ohjelmistotekniikka-kevat2019/blob/master/web/arvosteluperusteet.md).
 
-Tälle sivulle on koottu erinäistä asiaa liittyen kurssin "teoriaan" sekä erinäisiin menetelmiin, kuten UML-kaavioihin. Sivu kannattaa lukea kokonaisuudessaan heti ensimmäisen viikon aikana, tosin luvusta [Työkaluja](https://github.com/mluukkai/Ohjelmistotekniikka2018/blob/master/web/materiaali.md#työkaluja) alkaen olevaa asiaa tarvitaan oikeastaan vasta viikosta 2 eteenpäin.
+Tälle sivulle on koottu erinäistä asiaa liittyen kurssin "teoriaan" sekä erinäisiin menetelmiin, kuten UML-kaavioihin. Sivu kannattaa lukea kokonaisuudessaan heti ensimmäisen viikon aikana, tosin luvusta [Työkaluja](https://github.com/mluukkai/ohjelmistotekniikka-kevat2019/blob/master/web/materiaali.md#työkaluja) alkaen olevaa asiaa tarvitaan oikeastaan vasta viikosta 2 eteenpäin.
 
-Ohjeita työn aloittamiseen [täällä](https://github.com/mluukkai/Ohjelmistotekniikka2018/blob/master/web/tyon_aloitus.md)
+Ohjeita työn aloittamiseen [täällä](https://github.com/mluukkai/ohjelmistotekniikka-kevat2019/blob/master/web/tyon_aloitus.md)
 
 # Kirjoitusvirheitä 
 
-Jos huomaat tehtävissä tai muussa materiaalissa kirjoitusvirheitä, kirjaudu GitHubiin ja toimi [täällä](https://github.com/mluukkai/Ohjelmistotekniikka2018/blob/master/web/typokorjaukset.md) olevan ohjeen mukaan.
+Jos huomaat tehtävissä tai muussa materiaalissa kirjoitusvirheitä, kirjaudu GitHubiin ja toimi [täällä](https://github.com/mluukkai/ohjelmistotekniikka-kevat2019/blob/master/web/typokorjaukset.md) olevan ohjeen mukaan.
 
 # Ohjelmistotuotanto
 
@@ -102,7 +102,7 @@ _Järjestelmätestauksessa_ (engl. system testing) testataan järjestelmää kok
 
 Ohjelmistoja on perinteisesti tehty vaihe vaiheelta etenevän _vesiputousmallin_ (engl. waterfall model) mukaan. Vesiputousmallissa edellä esitellyt ohjelmistotuotannon vaiheet suoritetaan peräkkäin:
 
-![](https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/l-1.png)
+![](https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/l-1.png)
 
 Vesiputousmallissa suoritetaan siis ensin vaatimusmäärittely, jonka seurauksena kirjoitetaan vaatimusdokumentti, johon pyritään kokoamaan kaikki ohjelmalle osoitettavat vaatimukset mahdollisimman tarkasti dokumentoituna. Määrittelyvaiheen päätteeksi vaatimusdokumentti jäädytetään. Jäädytettyä vaatimusmäärittelyä käytetään usein ohjelman kehittämisen vaatimien resurssien arvioinnin perustana ja myös sopimus ohjelman hinnasta saatetaan tehdä vaatimusmäärittelyn pohjalta.
 
@@ -130,7 +130,7 @@ Jokainen iteraatio tuottaa toimivan ja toteutettujen ominaisuuksien kannalta tes
 
 Jokainen iteraatio siis sisältää määrittelyä, suunnittelua, ohjelmointia ja testausta ja jokaisen iteraation jälkeen saadaan asiakkaalta palautetta siitä, onko kehitystyö etenemässä oikeaan suuntaan:
 
-<img src="https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/l-2.png" width="700">
+<img src="https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/l-2.png" width="700">
 
 Ketterässä ohjelmistokehityksessä dokumentointi ei ole yleensä niin keskeisessä osassa kuin perinteisissä menetelmissä.
 
@@ -150,7 +150,7 @@ Tarvitsemme ohjelmisokehityksessä suuren joukon käytännön työkaluja.
 
 ## Komentorivi ja Versionhallinta
 
-Olet jo ehkä käyttänyt muilla kursseilla komentoriviä ja versionhallintaa, molemmat ovat tärkeässä roolissa ohjelmistokehityksessä ja niiden harjoittelu on aiheena viikon 1 [tehtävissä](https://github.com/mluukkai/Ohjelmistotekniikka2018/blob/master/tehtavat/viikko1.md). 
+Olet jo ehkä käyttänyt muilla kursseilla komentoriviä ja versionhallintaa, molemmat ovat tärkeässä roolissa ohjelmistokehityksessä ja niiden harjoittelu on aiheena viikon 1 [tehtävissä](https://github.com/mluukkai/ohjelmistotekniikka-kevat2019/blob/master/tehtavat/viikko1.md). 
 
 ## Maven
 
@@ -160,14 +160,14 @@ Alamme tämän kurssin myötä hieman tutkimaan, miten Javalla tehdyn ohjelmisto
 
 Java-projektien hallinnointiin on olemassa muutamakin vaihtoehto. Käytämme tällä kurssilla _mavenia_, joka lienee jo useimmille osittain tuttu esim. Tietokantojen perusteista.
 
-[Ohje](https://github.com/mluukkai/Ohjelmistotekniikka2018/blob/master/web/maven.md)
+[Ohje](https://github.com/mluukkai/ohjelmistotekniikka-kevat2019/blob/master/web/maven.md)
 Mavenin käytön aloittamiseen.
 
 ## JUnit
 
 Ohjelmistojen testaus tapahtuu nykyään ainakin yksikkö- ja integraatiotestien osalta automatisoitujen testityökalujen toimesta. Java-maailmassa testausta dominoi lähes yksinvaltiaan tavoin JUnit. Tulet kurssin ja myöhempienkin opintojesi aikana kirjoittamaan paljon JUnit-testejä. 
 
-JUnitiin tutustumme viikon 2 [tehtävissä](https://github.com/mluukkai/Ohjelmistotekniikka2018/blob/master/tehtavat/viikko2.md).
+JUnitiin tutustumme viikon 2 [tehtävissä](https://github.com/mluukkai/ohjelmistotekniikka-kevat2019/blob/master/tehtavat/viikko2.md).
 
 ## JavaDoc
 
@@ -175,12 +175,12 @@ Osa ohjelmiston dokumentointia on lähdekoodin API:n eli käytännössä luokkie
 
 Sovelluksen JavaDocia voi tarkastella selaimen avulla
 
-![](https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/l-7.png)
+![](https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/l-7.png)
 
 
 Myös NetBeans osaa näyttää ohjelmoidessa koodiin määritellyn javadocin:
 
-![](https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/l-14.png)
+![](https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/l-14.png)
 
 ## Checkstyle
 
@@ -190,7 +190,7 @@ Käytämme kurssilla tarkoitukseen [Checkstyle](http://checkstyle.sourceforge.ne
 
 >Checkstyle is a development tool to help programmers write Java code that adheres to a coding standard. It automates the process of checking Java code to spare humans of this boring (but important) task. This makes it ideal for projects that want to enforce a coding standard.
 
-[Ohje](https://github.com/mluukkai/Ohjelmistotekniikka2018/blob/master/web/chekstyle.md) checkstylen konfiguroimiseen.
+[Ohje](https://github.com/mluukkai/ohjelmistotekniikka-kevat2019/blob/master/web/chekstyle.md) checkstylen konfiguroimiseen.
 
 ## UML
 
@@ -267,13 +267,13 @@ public class Todo {
 
 Jokaiseen todoon liittyy yksi käyttäjä, ja yksittäiseen käyttäjään liittyviä todoja voi olla useita. Tilannetta kuvaa seuraava luokkakaavio
 
-<img src="https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/l-3a.png" width="500">
+<img src="https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/l-3a.png" width="500">
 
 Luokkakaavioon on nyt merkitty molempien luokkien oliomuuttujat sekä metodit. 
 
 Yleensä ei ole mielekästä kuvata luokkia tällä tarkkuudella, eli luokkakaavioihin riittää merkitä luokan nimi
 
-<img src="https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/l-4.png" width="350">
+<img src="https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/l-4.png" width="350">
 
 Luokkien tarkemmat detaljit selviävät koodia katsomalla tai JavaDoc:ista.
 
@@ -355,7 +355,7 @@ Kassapääte käyttää maksukortteja hetkellisesti lounaiden maksamisen ja raha
 
 Tilannetta kuvaava luokkakaavio on seuraava:
 
-<img src="https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/l-18.png" width="450">
+<img src="https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/l-18.png" width="450">
 
 Riippuvuus siis kuvataan _katkoviivallisena nuolena_, joka kohdistuu siihen luokkaan mistä ollaan riippuvaisia. Riippuvuuteen ei merkitä numeroa toisin kuin yhteyteen.
 
@@ -393,7 +393,7 @@ Sovelluslogiikaa hoitava olio tuntee kirjautuneen käyttäjän, mutta pääsee k
 
 Merkitään luokkakaavioon seuraavasti:
 
-<img src="https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/l-5.png" width="600">
+<img src="https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/l-5.png" width="600">
 
 Riippuvuuksien merkitseminen luokkakaavioihin ei ole välttämättä kovin oleellinen asia, niitä kannattaa merkitä jos ne tuovat esille tilanteen kannalta jotain oleellista.
 
@@ -424,21 +424,21 @@ sekä testien käyttämä _FakeTodoDao_. Jos ohjelmaa halutaan laajentaa siten, 
 
 Rajapinta ja sen toteuttavat luokat kuvataan luokkakaaviossa seuraavasti:
 
-<img src="https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/l-6.png" width="650">
+<img src="https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/l-6.png" width="650">
 
 Samaa merkintätapaa eli valkoisen nuolenpään sisältävää viivaa käytetään perinnän merkitsemiseen. Esim. jos Todo-sovelluksessa olisi normaalin käyttäjän eli luokan _User_ perivää ylläpitäjää kuvaava luokka _SuperUser_, merkattaisiin se luokkakaavioon seuraavasti:
 
-<img src="https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/l-9.png" width="350">
+<img src="https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/l-9.png" width="350">
 
 ### Pakkauskaavio
 
 Todo-sovelluksen koodi on sijoitettu _pakkauksiin_ seuraavasti:
 
-![](https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/l-10.png)
+![](https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/l-10.png)
 
 Pakkausrakenne voidaan kuvata UML:ssä pakkauskaaviolla:
 
-<img src="https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/l-11.png" width="160">
+<img src="https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/l-11.png" width="160">
 
 Pakkausten välille on merkitty _riippuvuudet_ katkoviivalla. Pakkaus _todoapp.ui_ riippuu pakkauksesta _todoapp.domain_ sillä _ui_:n luokka _Main_ käyttää _domain_-pakkauksen luokkia _Todo_ ja _TodoService_.
 
@@ -456,7 +456,7 @@ Luokka- ja pakkauskaaviot kuvaavat ohjelman rakennetta. Ohjelman toimita ei kuit
 
 Esim. ohjelmoinnin perusteiden Unicafe-tehtävää kuvaava luokkakaavio näyttää seuraavalta:
 
-<img src="https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/l-15.png" width="550">
+<img src="https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/l-15.png" width="550">
 
 Vaikka kaavioon on merkitty metodien nimet, ei ohjelman toimintalogiikka, esim. mitä tapahtuu kun kortilla ostetaan edullinen lounas, selviä kaaviosta millään tavalla.
 
@@ -487,13 +487,13 @@ public class Kassapaate {
 
 Sekvenssikaaviona kuvattuna tilanne näyttää seuraavalta:
 
-<img src="https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/l-16.png" width="450">
+<img src="https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/l-16.png" width="450">
 
 Sekvenssikaaviossa oliot kuvataan laatikoina, joista lähtee alaspäin olion "elämänlanka". Kaaviossa aika etenee ylhäältä alas. Metodikutsut kuvataan nuolena, joka yhdistää kutsujan ja kutsutun olion elämänlangat. Paluuarvo merkitään katkoviivalla.
 
 Jos saldo ei riitä, etenee suoritus seuraavan sekvenssikaavion tapaan:
 
-<img src="https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/l-17.png" width="450">
+<img src="https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/l-17.png" width="450">
 
 Tarkastellaan hieman monimutkaisempaa tapausta, yrityksen palkanhallinnasta vastaavaa ohjelmaa:
 
@@ -578,7 +578,7 @@ public static void main(String[] args) {
 
 Sekvenssikaavio on seuraavassa:
 
-![](https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/l-13.png)
+![](https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/l-13.png)
  
 Kaavio alkaa tilanteesta, jossa _Henkilostorekisteri_ on jo luotu, mutta henkilöolioita ei vielä ole olemassa.
 
@@ -604,13 +604,13 @@ Katsotaan seuraavassa muutamia sovelluksen suunnittelussa noudatettuja periaatte
 
 Kuten jo mainittiin, todo-sovellus noudattaa kerrosarkkitehtuuria. Koodin tasolla kerrosrakenne näkyy siinä, miten sovelluksen koodi jakautuu pakkauksiin 
 
-![](https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/l-10.png)
+![](https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/l-10.png)
 
 ja minkälaisia riippuvuuksia pakkausten välisillä luokilla on. 
 
 Riippuvuudet kuvaava pakkauskaavio havainnollistaa koodin rakenteen kerroksellisuuden
 
-<img src="https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/l-12.png" width="400">
+<img src="https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/l-12.png" width="400">
 
 Kerrosarkkitehtuurissa ylimpänä on _käyttöliittymästä_ vastaava kerros. Käyttöliittymäkerroksen vastuulla on muodostaa sovelluksen käyttöliittymä ja reagoida käyttäjän syötteisiin.
 
@@ -654,7 +654,7 @@ _Program to an interface, not to an Implementation_, eli _ohjelmoi käyttämäll
 
 Todo-sovelluksessa sovelluslogiikka ei käytä suoraan konkreettisia DAO-olioita, se tuntee ainoastaan rajapinnat, ja tämä taas mahdollistaa konkreettisen toteutuksen vaihtamisen esim. testeissä tai tulevaisuudessa ohjelman laajennuksen yhteydessä:
 
-<img src="https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/l-6.png" width="650">
+<img src="https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/l-6.png" width="650">
 
 ### Riippuvuuksien minimointi
 	
@@ -766,4 +766,4 @@ Katso lisää Todo-sovelluksen [arkkitehtuurikuvauksesta](https://github.com/mlu
 
 # Ohjelmiston toteutus
 
-Muutamia käyttöliittymän ja tietojen tallettamisen toteuttamiseen sekä sovelluksen konfigurointiin liittyviä vihjeitä on koottu [tänne](https://github.com/mluukkai/Ohjelmistotekniikka2018/blob/master/web/java.md)
+Muutamia käyttöliittymän ja tietojen tallettamisen toteuttamiseen sekä sovelluksen konfigurointiin liittyviä vihjeitä on koottu [tänne](https://github.com/mluukkai/ohjelmistotekniikka-kevat2019/blob/master/web/java.md)
