@@ -11,7 +11,10 @@
     - Tietokantojen perusteet
 - Hyödyllinen esitieto: Tietokone työvälineenä
 - Kurssimateriaali https://github.com/mluukkai/ohjelmistotekniikka-kevat2019
-- Kurssi on sisällöltään ja kurssikoodiltaan sama kuin viime kevään kurssi _Ohjelmistotekniikan menetelmät_
+
+. . .
+
+- Kurssi on sisällöltään ja kurssikoodiltaan sama kuin viime syksyn kurssi  _Ohjelmistotekniikka_ ja kevään 2018 kurssi _Ohjelmistotekniikan menetelmät_
     - viime kevään OTM taas on nimeltään sama, mutta sisällöltään radikaalisti poikkeava ennen vuotta 2018 pidetystä kurssista OTM
 
 # Suoritusmuoto
@@ -33,6 +36,10 @@
 
 - Kurssilla on vain yksi luento **nyt** eli ma 11.3. klo 14-16 A111
 - Laskareiden ja harjoitustyön välitavoitteiden viikoittaiset deadlinet _tiistaina klo 23:59_
+  - deadlineen on pari poikkeusta, ks kurssisivu
+
+. . .
+
 - Paja salissa BK107
 
 alku  ma  ti  ke  to  pe
@@ -40,8 +47,7 @@ alku  ma  ti  ke  to  pe
 10    x   x   x    x    
 12        x   x         
 14        x   x    x   x
-16                      
-18                       
+16                                         
 
 - Paja alkaa huomenna 12.3
 
@@ -49,6 +55,7 @@ alku  ma  ti  ke  to  pe
 
 - Jaossa 60 pistettä jotka jakautuvat seuraavasti
     - Viikkodeadlinet 17p
+        - osa viikkopisteistä tulee laskareista
     - Koodikatselmointi 2p
     - Dokumentaatio	10p   
     - Testaus	7p	
@@ -63,8 +70,8 @@ alku  ma  ti  ke  to  pe
 
 # Ohjelmistotuotanto
 
-- Kun ollaan tekemässä suurempaa ohjelmistoa ulkoiselle asiakkaalle, tarvitaan  systemaattinen työskentelymenetelmä
-    - muuten riskinä mm. että lopputulos ei vastaa asiakkaan tarvetta 
+- Kun ollaan tekemässä suurempaa ohjelmistoa jonkun muun kuin koodarin itsensä käyttöön, tarvitaan  systemaattinen työskentelymenetelmä
+    - muuten riskinä mm. että lopputulos ei vastaa käyttäjän tarvetta 
 
 . . .
 
@@ -84,7 +91,7 @@ alku  ma  ti  ke  to  pe
 
 . . .
 
-- Ohjelman toiminnalle siis määritellään asiakkaan vaatimukset
+- Ohjelman toiminnalle siis määritellään *asiakkaan vaatimukset*
 - Tämän lisäksi kartoitetaan ohjelman toimintaympäristön ja toteutusteknologian järjestelmälle asettamia rajoitteita
 
 . . .
@@ -95,7 +102,7 @@ alku  ma  ti  ke  to  pe
 # Vaatimusten kirjaaminen
 
 - On olemassa lukuisia tapoja dokumentoida vaatimuksen
-- Kurssin ennen tätä vuotta pidetyissä versioissa käyttäjien vaatimukset dokumentointiin _käyttötapauksina_ (engl. use case)
+- Kurssin ennen vuotta 2018 pidetyissä versioissa käyttäjien vaatimukset dokumentointiin _käyttötapauksina_ (engl. use case)
     - tapa on jo vanhahtava ja hylkäämme sen
 - Kurssilla Ohjelmistotuotanto tutustumme nykyään yleisesti käytössä oleviin _käyttäjätarinoihin_ (engl. user story)
 
@@ -118,6 +125,9 @@ Katsotaan esimerkkinä Todo-sovelluksen vaatimusmäärittelyä
 - Todo-sovelluksesta tunnistetaan kaksi käyttäjäroolia 
     - normaalit käyttäjät
     - laajemmilla oikeuksilla varustetut ylläpitäjät 
+
+. . .
+
 - Kun sovelluksen käyttäjäroolit ovat selvillä, mietitään mitä toiminnallisuuksia kunkin käyttäjäroolin halutaan pystyvän tekemään sovelluksen avulla
 
 # TodoApp:in vaatimusmäärittely
@@ -140,8 +150,9 @@ Katsotaan esimerkkinä Todo-sovelluksen vaatimusmäärittelyä
 - Ohjelmiston vaatimuksiin kuuluvat myös _toimintaympäristön rajoitteet_ 
 - Todo-sovellusta koskevat seuraavat rajoitteet:
     - ohjelmiston tulee toimia Linux- ja OSX-käyttöjärjestelmillä varustetuissa koneissa
+    - tuteutetaan Java FX -kirjaston avulla
     - käyttäjien ja töiden tiedot talletetaan paikallisen koneen levylle
-
+    
 . . .  
 
 - Vaatimusmäärittelyn aikana hahmotellaan yleensä myös sovelluksen käyttöliittymä
@@ -252,7 +263,7 @@ Teemme kurssin harjoitustyötä ketterässä hengessä viikon mittaisilla iteraa
     - Olet todennäköisesti ohjelmoinut Javaa  NetBeansilla ja tottunut painamaan "vihreää nappia" tai "mustaa silmää"
     - tutkimme kurssilla hieman miten Javalla tehdyn ohjelmiston _hallinnointi_ tapahtuu NetBeansin "ulkopuolella"
         - koodin kääntäminen, koodin sekä testin suorittaminen ja koodin paketoiminen NetBeansin ulkopuolella suoritettavissa olevaksi jar-paketiksi 
-    - Java-projektien hallinnointiin on olemassa muutamaia vaihtoehtoja. Käytämme monille TiKaPesta tuttua _mavenia_
+    - Java-projektien hallinnointiin on olemassa muutamia vaihtoehtoja. Käytämme monille TiKaPesta tuttua _mavenia_
 
 # JUnit
 
@@ -292,7 +303,6 @@ NetBeans osaa näyttää ohjelmoidessa koodiin määritellyn JavaDocin
 
 ![](https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/l-14.png)
 
-
 #
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UML
@@ -313,7 +323,7 @@ NetBeans osaa näyttää ohjelmoidessa koodiin määritellyn JavaDocin
 
 # Luokkakaaviot
 
-- Luokkakaavioiden käyttötarkoitus on ohjelman luokkien ja niiden välisten suhteiden kuvailu
+- Tietokantojen perusteista tuttujen luokkakaavioiden käyttötarkoitus on ohjelman luokkien ja niiden välisten suhteiden kuvailu
 - Todo-sovelluksen oleellista tietosisältöä kuvaavat luokat
 
 ```java
@@ -431,7 +441,6 @@ public class Kassapaate {
 
 . . .
 
-- Tietokantojen perusteiden viikolla 4 on lyhyt maininta sekvenssikaavioista
 - Sekvenssikaaviot on alunperin kehitetty kuvaamaan verkossa olevien ohjelmien keskinäisen kommunikoinnin etenemistä 
 - Sekvenssikaaviot sopivat jossain määrin myös kuvaamaan myös sitä, miten ohjelman oliot kutsuvat toistensa metodeja suorituksen aikana
 
@@ -486,7 +495,7 @@ Mitä tapahtuu, jos maksukortin saldo on 2 euroa, eli vähemmän kuin lounaan hi
 
 - Edetään viikottaisten tavoitteiden mukaan 
 - Työ on saatava valmiiksi kurssin aikana ja sitä on toteutettava tasaisesti, muuten kurssi katsotaan keskeytetyksi
-- Samaa ohjelmaa ei voi jatkaa seuraavalla kurssilla (eli keväällä 2019), vaan työ on aloitettava uudella aiheella alusta
+- Samaa ohjelmaa ei voi jatkaa seuraavalla kurssilla (eli syksyllä 2019), vaan työ on aloitettava uudella aiheella alusta
 - Koko kurssin arvostelu perustuu pääasiassa harjoitustyöstä saataviin pisteisiin 
 - Osa pisteistä kertyy viikoittaisten välitavoitteiden kautta, osa taas perustuu työn lopulliseen palautukseen
 
@@ -533,11 +542,17 @@ Mitä tapahtuu, jos maksukortin saldo on 2 euroa, eli vähemmän kuin lounaan hi
     - Vältä eeppisiä aiheita, aloita riittävän pienestä
     - Valitse aihe, jonka perustoiminnallisuuden saa toteutettua nopeasti, mutta jota saa myös laajennettua helposti
     - Hyvässä aiheessa on muutamia logiikkaluokkia, tiedostojen tai tietokannan käsittelyä ja sovelluslogiikasta eriytetty käyttöliittymä
+
+. . .
+
 - Kurssilla pääpaino on
     - Toimivuus ja varautuminen virhetilanteisiin
     - Luokkien vastuut
     - Ohjelman selkeä rakenne
     - Laajennettavuus ja ylläpidettävyys
+
+. . .
+
 - **Tällä kurssilla ei ole tärkeää:**
     - Tekoäly
     - Grafiikka
@@ -547,7 +562,7 @@ Mitä tapahtuu, jos maksukortin saldo on 2 euroa, eli vähemmän kuin lounaan hi
 # Huonon aiheen ominaisuuksia
 
 - Kannattaa yrittää välttää aiheita, joissa pääpaino on tiedon säilömisessä tai monimutkaisessa käyttöliittymässä
-- Paljon tietoa säilövät, esim. yli 3 tietokantataulua tarvitsevat sovellukset sopivat yleensä paremmin Tietokantasovellus-kurssille 
+- Paljon tietoa säilövät, esim. yli 3 tietokantataulua tarvitsevat sovellukset sopivat yleensä paremmin kurssille Tietokantasovellus 
 - Käyttöliittymäkeskeisissä aiheissa (esim. tekstieditori) voi olla vaikea keksiä sovelluslogiikkaa, joka on enemmän tämän kurssin painopiste 
 
 # Esimerkkejä aiheista
@@ -601,20 +616,20 @@ Mitä tapahtuu, jos maksukortin saldo on 2 euroa, eli vähemmän kuin lounaan hi
 # Arvosteluperusteet tarkemmin
 
 - Kurssin maksimi on 60 pistettä 
-- Ennen loppupalautusta jaossa 20 pistettä
+- Ennen loppupalautusta jaossa 19 pistettä
     - Viikkodeadlinet 17p
-    - Koodikatselmointi 3p
-- Loppupalautus ratkaise 40 pisteen kohtalon
-    - Dokumentaatio	10p   
-    - Testaus	7p	
-    - Lopullinen ohjelma 23p
+    - Koodikatselmointi 2p
+- Loppupalautus ratkaise 41 pisteen kohtalon
+    - Dokumentaatio	12p   
+    - Testaus 5p	
+    - Lopullinen ohjelma 24p
         - Laajuus, ominaisuudet ja koodin laatu		
 - Arvosanaan 1 riittää 30 pistettä, arvosanaan 5 tarvitaan noin 55 pistettä
 - Läpipääsyyn vaatimuksena on lisäksi vähintään 10 pistettä lopullisesta ohjelmasta
 
 # Harjoitustyön vaikutus kurssipisteisiin
 
-Ohjelman pisteet (yht 43) jakautuvat seuraavasti
+Ohjelman pisteet jakautuvat seuraavasti
 
 - käyttöliittymä 4p
     - 0p yksinkertainen tekstikäyttöliittymä
@@ -628,7 +643,7 @@ Ohjelman pisteet (yht 43) jakautuvat seuraavasti
     - 3-4p internet
 - sovelluslogiikan kompleksisuus 3p
 - ohjelman lajuus 5p
-- ulkoisten kirjastojen hyödyntäminen 5p
+- ulkoisten kirjastojen hyödyntäminen 1p
 - suorituskelpoinen jar-tiedosto  1p
 - koodin laatu 6p
 
@@ -636,6 +651,9 @@ Ohjelman pisteet (yht 43) jakautuvat seuraavasti
 
 - Kurssin tavoitteena on, että tuotoksesi voisi ottaa kuka tahansa kaverisi tai muu opiskelija ylläpidettäväksi ja laajennettavaksi
 - Lopullisessa palautuksessa tavoitteena on _Clean code_ eli selkeä, ylläpidettävä ja toimivaksi testattu koodi
+
+. . .
+
 - **Nimentä**
     - Käytä mahdollisimman kuvaavia nimiä kaikkialla 
     - Luokkien nimet aina isolla alkukirjaimella
@@ -647,11 +665,14 @@ Ohjelman pisteet (yht 43) jakautuvat seuraavasti
 
 # Koodin laatuvaatimukset
 
-- **Ei pitkiä metodeja**
+- **Ei liian pitkiä metodeja**
     - Sovelluslogiikan metodin pituuden tulee ilman erittäin hyvää syytä olla korkeintaan 10 riviä
     - Pitkät metodit tulee jakaa useampiin metodeihin
     - Yksi metodi - yksi pieni tehtävä (Single Responsibility)
         - Helpottaa myös testaamista
+
+. . .
+
 - **Ei copy-pastea**
     - Toistuvan koodin saa lähes aina hävitettyä
     - Tapauksesta riippuen luo metodi tai yliluokka, joka sisältää toistuvan koodin
