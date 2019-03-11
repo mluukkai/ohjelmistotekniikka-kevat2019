@@ -1,6 +1,6 @@
 # Ohjelmistotekniikka, kevät 2019
 
-_Kurssin nimi on muuttunut, ennen tätä syksyä kurssi tunnettiin nimellä Ohjelmistotekniikan menetelmät_
+_Kurssin nimi on muuttunut, aiemmin kurssi tunnettiin nimellä Ohjelmistotekniikan menetelmät_
 
 ## Yleistä
 
