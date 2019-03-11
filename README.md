@@ -58,6 +58,8 @@ Jos huomaat tehtävissä tai muussa materiaalissa kirjoitusvirheitä, kirjaudu G
 
 Pajaohjaus alkaa aina akateemisella vartilla ja kestää tasaan asti, ohjaajien välillä on siis 15 minuutin tauko.
 
+Luokka BK107
+
 | Kellonaika | Maanantai | Tiistai | Keskiviikko | Torstai | Perjantai |
 |:-:|:-:|:-:|:-:|:-:|:-:|
 | 10 - 12 | Olli T | Heli |Olli K-H | Harri |
