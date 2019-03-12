@@ -2,7 +2,7 @@
 
 ## Sovelluksen käyttöliittymä
 
-Voit siis tehdä sovelluksellesi tekstikäyttöliittymän tai graafisen käyttöliittymän. Tekstikäyttöliittymän tekeminen on toki useimmiten huomattavasti helpompaa, mutta se voi olla hieman tylsää ja graafisen käyttöliittymän tekemättömyys saattaa [vaikuttaa arvosanaan](https://github.com/mluukkai/Ohjelmistotekniikka2018/blob/master/web/arvosteluperusteet.md).
+Voit siis tehdä sovelluksellesi tekstikäyttöliittymän tai graafisen käyttöliittymän. Tekstikäyttöliittymän tekeminen on toki useimmiten huomattavasti helpompaa, mutta se voi olla hieman tylsää ja graafisen käyttöliittymän tekemättömyys saattaa [vaikuttaa arvosanaan](https://github.com/mluukkai/ohjelmistotekniikka-kevat2019/blob/master/web/arvosteluperusteet.md).
 
 Pääasia on joka tapauksessa, että pyrit _eriyttämään mahdollisimman hyvin sovelluslogiikan käyttöliittymästä_. Käyttöliittymän roolin tulee siis olla ainoastaan käyttäjän kanssa tapahtuva interaktio, varsinaisen logiikan tulee tapahtua muissa oliossa. 
 
@@ -113,7 +113,7 @@ public class Numerotiedustelu {
 
 Koodi tulostaa ruudulle komentojen nimet, kysyy käyttäjän syötettä ja suorittaa halutun toimenpiteen:
 
-<img src="https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/j-1.png" width="700">
+<img src="https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/j-1.png" width="700">
 
 Koodi haarautuu käyttäjän valinnan mukaan if:ssä valitun toimenpiteen suorittavaan metodiin. Esim. jos valinta on 1, suoritetaan tiedot luetteloon lisäävä metodi:
 
@@ -175,7 +175,7 @@ public class Paaohjelma {
 
 Ero on hyvin pieni, nyt sovelluslogiikasta huolehtiva _NumeroJaOsoitepalvelu_-olio luodaan pääohjelmassa ja annetaan käyttöliittymänä toimivalle _Numerotiedustelu_-oliolle konstruktorin parametrina.
 
-Tästä tekniikasta käytetään nimitystä [riippuvuuden injektointi](https://github.com/mluukkai/Ohjelmistotekniikka2018/blob/master/web/materiaali.md#riippuvuuksien-injektointi), sillä  _NumeroJaOsoitepalvelu_-olio on _Numerotiedustelu_-olion riippuvuus, joka tässä myöhemmässä versiossa injetoidaan konstruktoriparametrin avulla riippuvuutta tarvitsevalle oliolle. Aiemmassa versiossahan numerotiedustelu loi riippuvuuden itse.
+Tästä tekniikasta käytetään nimitystä [riippuvuuden injektointi](https://github.com/mluukkai/ohjelmistotekniikka-kevat2019/blob/master/web/materiaali.md#riippuvuuksien-injektointi), sillä  _NumeroJaOsoitepalvelu_-olio on _Numerotiedustelu_-olion riippuvuus, joka tässä myöhemmässä versiossa injetoidaan konstruktoriparametrin avulla riippuvuutta tarvitsevalle oliolle. Aiemmassa versiossahan numerotiedustelu loi riippuvuuden itse.
 
 Riippuvuuksien injektoinnista on monia etuja, eräs näistä on laajennettavuus.
 
@@ -306,7 +306,7 @@ JavaFX tarjoaa myös tavan käyttöliittymän ulkoasun määrittelemiseen lähei
 
 Tarkastellaan yksinkertaista esimerkkiä, graafista noppaa:
 
-<img src="https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/j-2.png" width="400">
+<img src="https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/j-2.png" width="400">
 
 Esimerkin koodi on kokonaisuudessaan GitHubissa <https://github.com/mluukkai/FXMLExample>
 
@@ -430,7 +430,7 @@ public class MainApp extends Application {
 
 FXML-muotoiset käyttöliittymien näkymät on mahdollista tehdä käsin editoimalla fxml-tiedostoja. Toinen mahdollisuus on käyttää graafista [Scenebuilder](http://gluonhq.com/products/scene-builder/)-editoria käyttöliittymän rakentamiseen.
 
-<img src="https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/j-3.png" width="800">
+<img src="https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/j-3.png" width="800">
 
 Scenebuilder integroitui ainakin OSX:ssä automaattisessti NetBeansiin.
 
@@ -442,7 +442,7 @@ Kurssin referenssisovelluksen [FXML](https://github.com/mluukkai/FxmlTodoApp)-ve
 
 Ohjelmoinnin jatkokurssilla tehdään JavaFX:n ainoastaan matala pintaraapaisu, jatkokurssin materiaali kannattaa kuitenkin ehdottomasti kerrata jos olet aikeissa käyttää JavaFX:ää. 
 
-Jos käyttöliittymäsi on vähänkin epätriviaali, joudut suurella todennäköisyydellä etsimään itse lisää tietoa. Omatoimisen tiedonhaun harjoittelu onkin tämän kurssin eräs tärkeimmistä oppimistavoitteista. Seuraavassa muutamia linkkejä auttamaan alkuunpääsemistä. Jos löydät internetistä hyvää materiaalia, tee sivulle [pull request](https://github.com/mluukkai/Ohjelmistotekniikka2018/blob/master/web/materiaali.md#kirjoitusvirheitä-materiaalissa)
+Jos käyttöliittymäsi on vähänkin epätriviaali, joudut suurella todennäköisyydellä etsimään itse lisää tietoa. Omatoimisen tiedonhaun harjoittelu onkin tämän kurssin eräs tärkeimmistä oppimistavoitteista. Seuraavassa muutamia linkkejä auttamaan alkuunpääsemistä. Jos löydät internetistä hyvää materiaalia, tee sivulle [pull request](https://github.com/mluukkai/ohjelmistotekniikka-kevat2019/blob/master/web/materiaali.md#kirjoitusvirheitä-materiaalissa)
 
 - [Getting started](https://docs.oracle.com/javase/8/javafx/get-started-tutorial/index.html)
 - [API](https://docs.oracle.com/javase/8/javafx/api/toc.htm)
@@ -462,7 +462,7 @@ Youtubesta löytyy runsaasti vaihtelevanlaatuisia videoita aihepiiristä. Hyväk
 
 ## Tietojen talletus
 
-Arvosteluperusteet [kannustavat](https://github.com/mluukkai/Ohjelmistotekniikka2018/blob/master/web/arvosteluperusteet.md) siihen, että ohjelmasi käsittelisi johonkin muotoon pysyväistalletettua tietoa. Kannattaa kuitenkin pitää talletettavan tiedon määrä kohtuullisena, eeppisimmät tietoa käsittelevät aiheet sopivat paremmin kurssille [Tietokantasovellus](https://courses.helsinki.fi/fi/tkt20011).
+Arvosteluperusteet [kannustavat](https://github.com/mluukkai/ohjelmistotekniikka-kevat2019/blob/master/web/arvosteluperusteet.md) siihen, että ohjelmasi käsittelisi johonkin muotoon pysyväistalletettua tietoa. Kannattaa kuitenkin pitää talletettavan tiedon määrä kohtuullisena, eeppisimmät tietoa käsittelevät aiheet sopivat paremmin kurssille [Tietokantasovellus](https://courses.helsinki.fi/fi/tkt20011).
 
 ### DAO-suunnittelumalli
 
