@@ -54,7 +54,7 @@ Valitse _File > New project > Java / Java Application < next_
 
 **Projekti tulee sijoittaa Labtooliin rekisteröimäsi repositorion hakemiston _laskarit/viikko2_ sisälle:**
 
-<img src="https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/v2-1.png" width="600">
+<img src="https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/v2-1.png" width="600">
 
 Anna projektille nimeksi esim. *Maksukortti* ja varmista, että kohdassa *Create Main Class* **ei ole** rastia:
 
@@ -174,7 +174,7 @@ Varmistetaan että saamme alalaitaan punaisen palkin.
 
 Painamalla työkalupalkin kohdalla hiiren oikeaa nappia ja valitsemalla Customize voit vetää listasta palkkiin oman napin testien ajamista varten. Näin kannattaa tehdä välittömästi. Jos olet käyttänyt koneella TMC:tä, se on luonut napin (musta silmä) jo valmiiksi.
 
-<img src="https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/v2-3.png" width="800">
+<img src="https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/v2-3.png" width="800">
 
 Tehdään seuraavaksi testi, joka varmistaa, että kortin saldo pienee kutsuttaessa metodia <code>syoEdullisesti</code>.
 
