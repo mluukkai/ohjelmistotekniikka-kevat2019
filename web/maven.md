@@ -2,7 +2,7 @@
 
 ## Projektin luominen
 
-Ohje maven-muotoisen projektin luomiseen NetBeansilla [täällä](https://github.com/mluukkai/Ohjelmistotekniikka2018/blob/master/web/tyon_aloitus.md#maven-projektin-luominen)
+Ohje maven-muotoisen projektin luomiseen NetBeansilla [täällä](https://github.com/mluukkai/ohjelmistotekniikka-kevat2019/blob/master/web/tyon_aloitus.md#maven-projektin-luominen)
 
 Vaikka käyttäisit JavaFX:ää, kannattaa projektia varten silti luoda ohjeen mukaan "normaali" maven-projekti.
 
@@ -40,7 +40,7 @@ Lisää tiedostoon _pom.xml_ seuraavat
 
 Huomaa, että määrittelyt on lisättävä _Project_-tagien sisälle:
 
-<img src="https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/m-0.png" width="700">
+<img src="https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/m-0.png" width="700">
 
 Voit nyt suorittaa testauskattavuuden mittaamisen komennolla
 
@@ -48,7 +48,7 @@ Voit nyt suorittaa testauskattavuuden mittaamisen komennolla
 mvn test jacoco:report
 ```
 
-Katso lisää [viikon 2 laskareista](https://github.com/mluukkai/Ohjelmistotekniikka2018/blob/master/tehtavat/viikko2.md#3-testauskattavuus).
+Katso lisää [viikon 2 laskareista](https://github.com/mluukkai/ohjelmistotekniikka-kevat2019/blob/master/tehtavat/viikko2.md#3-testauskattavuus).
 
 ### Koodin huomiotta jättäminen kattavuusraportissa
 
@@ -56,11 +56,11 @@ Joskus haluamme jättää osan koodista, esim. käyttöliittymän huomioimatta k
 
 Oletetaan, että projekti näyttää seuraavalta
 
-<img src="https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/m-1.png" width="700">
+<img src="https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/m-1.png" width="700">
 
 oletusarvoisesti testauskattavuus raportoidaan kaikesta koodista
 
-<img src="https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/m-2.png" width="700">
+<img src="https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/m-2.png" width="700">
 
 Yksittäisen pakkauksen koodit on helppo poistaa raportin alaisuudesta lisäämällä jacoco-pluginin määrittelyyn _excludes_-osa seuraavasti:
 
@@ -89,7 +89,7 @@ Excludesin alle voi lisätä tarvittaessa myös useampia excludeja. Lisää tiet
 
 ## Maven-komentojen suorittaminen NetBeansista
 
-Ohje [täällä](https://github.com/mluukkai/Ohjelmistotekniikka2018/blob/master/tehtavat/viikko2.md#maven-komentojen-suorittaminen-netbeansista).
+Ohje [täällä](https://github.com/mluukkai/ohjelmistotekniikka-kevat2019/blob/master/tehtavat/viikko2.md#maven-komentojen-suorittaminen-netbeansista).
 
 ## Ulkoisten kirjastojen käyttäminen Mavenin avulla
 
@@ -104,18 +104,18 @@ Apache Commonsin dokumentaatio ei suoraan kerro, miten koodi saadaan liitettyä 
 
 Googlaamalla "Apache Commons Math Maven" löytyy sivu <https://mvnrepository.com/artifact/org.apache.commons/commons-math3/3.6> joka näyttää seuraavalta
 
-<img src="https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/m-4.png" width="950">
+<img src="https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/m-4.png" width="950">
 
 Saamme liitettyä kirjaston projektiimme, kopioimalla sivulla olevan _dependency_-määritelmän projektin _pom.xml_-tiedoston osan _dependencies_ alle:
 
-<img src="https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/m-5.png" width="800">
+<img src="https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/m-5.png" width="800">
 
 Kirjastosta on nyt otettu uusin versio 3.6.1, minkä olemassaolosta _mvnrepository.com_ antoi vihjeen.
 
 Suorittamalla NetBeansissa _Clean and Build_ lataa Maven kirjaston koodin. 
 NetBeans-projektin _Dependencies_-kansio varmistaa asian:
 
-<img src="https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/m-6.png" width="400">
+<img src="https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/m-6.png" width="400">
 
 Voimme nyt käyttää kirjaston luokkia koodissamme:
 
@@ -151,11 +151,11 @@ Apache Commonsissa olevat kirjastot ovat varsin hyvin dokumentoituja. Jos ja kun
 
 ## Checkstyle
 
-Katso lisää [täältä](https://github.com/mluukkai/Ohjelmistotekniikka2018/blob/master/web/checkstyle.md)
+Katso lisää [täältä](https://github.com/mluukkai/ohjelmistotekniikka-kevat2019/blob/master/web/checkstyle.md)
 
 ## JavaDoc
 
-Katso lisää [täältä](https://github.com/mluukkai/Ohjelmistotekniikka2018/blob/master/web/javadoc.md)
+Katso lisää [täältä](https://github.com/mluukkai/ohjelmistotekniikka-kevat2019/blob/master/web/javadoc.md)
 
 ## Jarin generointi
 
@@ -193,7 +193,7 @@ Jarin generoimiseen tarvitaan seuraava konfiguraatio:
 
 Huomaa, että kohdan _mainClass_ on oltava **täsmälleen sama** kuin pääohjelman sisältävän luokan täydellinen nimi:
 
-<img src="https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/m-3.png" width="700">
+<img src="https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/m-3.png" width="700">
 
 * Saat nyt luotua jar-tiedoston antamalla komentoriviltä komennon _mvn package_
 * komento luo hakemiston _target_ sisälle kaksi jar-päätteistä tiedostoa, niistä oikea on se, jonka nimessä *ei* ole sanaa original

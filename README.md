@@ -1,6 +1,6 @@
 # Ohjelmistotekniikka, kevät 2019
 
-_Kurssin nimi on muuttunut, ennen tätä syksyä kurssi tunnettiin nimellä Ohjelmistotekniikan menetelmät_
+_Kurssin nimi on muuttunut, aiemmin kurssi tunnettiin nimellä Ohjelmistotekniikan menetelmät_
 
 ## Yleistä
 
@@ -57,6 +57,8 @@ Jos huomaat tehtävissä tai muussa materiaalissa kirjoitusvirheitä, kirjaudu G
 ## Pajaohjauksen aikatauluja
 
 Pajaohjaus alkaa aina akateemisella vartilla ja kestää tasaan asti, ohjaajien välillä on siis 15 minuutin tauko.
+
+Luokka BK107
 
 | Kellonaika | Maanantai | Tiistai | Keskiviikko | Torstai | Perjantai |
 |:-:|:-:|:-:|:-:|:-:|:-:|

@@ -129,7 +129,7 @@ Avaa tiedosto ja korvaa tiedoston sisältö seuraavalla:
 
 Voit suorittaa Checkstylen komentoriviltä komennolla <code>mvn jxr:jxr checkstyle:checkstyle</code>
 
-Muista, että maven-komentoja on mahdollista suorittaa myös suoraan [NetBeansista](https://github.com/mluukkai/Ohjelmistotekniikka2018/blob/master/tehtavat/viikko2.md#maven-komentojen-suorittaminen-netbeansista).
+Muista, että maven-komentoja on mahdollista suorittaa myös suoraan [NetBeansista](https://github.com/mluukkai/ohjelmistotekniikka-kevat2019/blob/master/tehtavat/viikko2.md#maven-komentojen-suorittaminen-netbeansista).
 
 Generoituasi Checkstyle-raportin löydät sen polusta **/target/site/checkstyle.html**.
 
