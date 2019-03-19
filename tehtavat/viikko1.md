@@ -60,7 +60,7 @@ Kirjauduttuasi laitoksen palvelimelle, tee seuraavat toimenpiteet:
 * poista hakemisto _temp_
 * mene nyt uudessa paikassa olevaan hakemistoon _Unicafe_
 * suorita komento _mvn clean_
-  * jos näen rivien joukossa ilmoituksen _BUILD SUCCESS_ on tehtävä tehty
+  * jos näet rivien joukossa ilmoituksen _BUILD SUCCESS_ on tehtävä tehty
 
 **Mene tämän jälkeen _kotihakemistoon_ ja anna komento _tree kurssit_. Copypastea komennon tulostus talteen, tarvitset sitä myöhemmin.**
 
@@ -98,7 +98,7 @@ Nykyään suosituin versionhallintaohjelmisto on [git](https://git-scm.com). Tut
 
 ### konfiguraatioita
 
-Avaa terminaali omalla koneellasi. **Seuraavat tehtävät tehdään siis paikallisesti, ei melkillä!**. 
+Avaa terminaali omalla koneellasi. **Seuraavat tehtävät tehdään siis paikallisesti, ei melkillä!**
 
 Määrittele gitille **oma nimesi** sekä **käyttämäsi email-osoite** antamalla komennot:
 
