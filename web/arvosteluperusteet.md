@@ -37,11 +37,11 @@ Pisteet (yht 24) jakautuvat seuraavasti
 - Sovelluslogiikan kompleksisuus 3p
 - Ohjelman laajuus 5p
 - Ulkoisten kirjastojen hyödyntäminen 1p
-  - ks https://github.com/mluukkai/Ohjelmistotekniikka2018/blob/master/web/maven.md#ulkoisten-kirjastojen-k%C3%A4ytt%C3%A4minen-mavenin-avulla
+  - ks https://github.com/mluukkai/ohjelmistotekniikka-kevat2019/blob/master/web/maven.md#ulkoisten-kirjastojen-k%C3%A4ytt%C3%A4minen-mavenin-avulla
 - Suorituskelpoinen jar-tiedosto 1p
   - Tiedosto generoitavissa tai löytyy repositoriosta _loppupalautus_-nimisestä releasesta
 - Koodin laatu 6p
-  - Kooste [laatuvaatimuksista](https://github.com/mluukkai/Ohjelmistotekniikka2018/blob/master/web/koodin_laatuvaatimukset.md)
+  - Kooste [laatuvaatimuksista](https://github.com/mluukkai/ohjelmistotekniikka-kevat2019/blob/master/web/koodin_laatuvaatimukset.md)
   - 5p hyvät abstraktiot (esim. Design patternien kuten DAO hyödynnys), hyvä luokkarakenne, helposti testattava ja laajennettava
   - 3p ei ilmeistä copypastea, ok luokkarakenne
   - +1p checkstylesäännöt kunnossa (muutama checkstyletyylin rikkomus saatetaan katsoa läpi sormien, jos tyylirikon poisto esim. huonontaisi muuten koodin laatua)
@@ -57,7 +57,7 @@ Pisteet (yht 24) jakautuvat seuraavasti
   - Sovelluksen käyttämän tietokantatiedoston nimi ei ole kirjoitettu koodiin vaan on käyttäjän määriteltävissä
   - Pelissä eri vaikueustasojen pelimaailmat eivät ole määritelty koodissa vaan luodaan erillisten tiedostojen perusteella
   - Pacmanissa hirviöiden määrä ei ole ohjelmakoodiin kovakoodattu vakio vaan valittavissa käyttöliittymästä
-  - Konfiguroitavuus voidaan toteuttaa joko käyttöliittymän tai [konfiguraatiotiedostojen](https://github.com/mluukkai/Ohjelmistotekniikka2018/blob/master/web/java.md#sovelluksen-konfiguraatiot) avulla
+  - Konfiguroitavuus voidaan toteuttaa joko käyttöliittymän tai [konfiguraatiotiedostojen](https://github.com/mluukkai/ohjelmistotekniikka-kevat2019/blob/master/web/java.md#sovelluksen-konfiguraatiot) avulla
   
   
 ## Testauksesta annettavat pisteet
