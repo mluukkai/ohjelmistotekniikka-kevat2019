@@ -20,7 +20,7 @@ Jos huomaat tehtävissä tai muussa materiaalissa kirjoitusvirheitä, kirjaudu G
 
 ## Ajankohtaista
 
-- [Tärkeää! OpenJDK:ssa havaittu bugi saattaa estää maven-sovellusten toiminnan (marraskuu 2018)](https://github.com/mluukkai/ohjelmistotekniikka-kevat2019/blob/master/web/openjdkbug.md)  
+- [OpenJDK:ssa havaittu bugi saattaa estää maven-sovellusten toiminnan (marraskuu 2018, päivitetty maaliskuu 2019)](https://github.com/mluukkai/ohjelmistotekniikka-kevat2019/blob/master/web/openjdkbug.md)  
 - [Telegram](https://t.me/tktlotm) on whatsappin/messengerin tyylinen keskustelufoorumisovellus jota on mahdollista käyttää selaimella, mobiililaitteilla ja Windows/Linux/OSX-clienteillä
   - Telegram-kanava on sillattu IRC-kanavaan #otm
   - **Huom:** kaikki epäasialliset, halventavat ja jotain ihmisryhmää syrjivät kommentit kanavalla ovat kiellettyjä ja tälläisten kommenttien esittäjät poistetaan kanavalta
