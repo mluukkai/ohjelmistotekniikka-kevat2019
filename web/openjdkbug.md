@@ -1,24 +1,5 @@
-## Bugi OpenJDK:n uusimmassa versiossa (marraskuu 2018)
+## Bugi OpenJDK:ssa (marraskuu 2018, päivitetty maaliskuu 2019)
 
-OpenJDK:n uusimmassa versiossa on bugi, joka vaikuttaa mavenia käyttäviin sovelluksiin esim. estämällä sovelluksen/testien ajamisen. 
+Ainakin OpenJDK:n versiossa 1.8.0_181 on bugi, joka vaikuttaa mavenia käyttäviin sovelluksiin esim. estämällä sovelluksen ja testien ajamisen tai testikattavuusraportin luomisen. 
 
-Tällä hetkellä ongelmaan ei ole tiedossa mitään järkevää korjausta, joka toimisi käyttöympäristöstä riippumatta, joten kannattaa pitäytyä käyttämästä OpenJDK:ta ja turvautua vaihtoehtoisiin ratkaisuihin (esim. Oracle JDK). 
-
-Jos kuitenkin kaikesta huolimatta haluat käyttää OpenJDK:ta, lisää pom.xml tiedostoon maven-surefire-plugin:
-
-```
-<plugin>
-  <groupId>org.apache.maven.plugins</groupId>
-  <artifactId>maven-surefire-plugin</artifactId>
-  <version>2.16</version>
-  <configuration>
-    <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
-  </configuration>
-</plugin>
-```
-
-Jos olet jo määrittänyt ko. pluginin, lisää sen `<configuration>` -tagien sisään seuraava rivi yo. esimerkin mukaisesti:
-
-`<argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>`
-
-Nämä lisäykset saattavat kuitenkin rikkoa Jacocon testikattavuusraportin, joten niitä kannattaa käyttää harkiten.
+Sovelluksen ja testien ajamisen estävä bugi on ilmeisesti korjattu uudemmissa versioissa, mutta jacocon testikattavuusraportti ei välttämättä toimi. Tämä saattaa korjaantua päivittämällä pom.xml jacocon versio 0.8.0 => 0.8.3.
