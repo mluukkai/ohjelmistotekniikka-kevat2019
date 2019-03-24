@@ -13,7 +13,7 @@ Lisää **pom.xml** tiedostoon seuraavat
 ```xml
 <build>
   <plugins>
-    // muita plugineja
+    <!-- muita plugineja -->
     <plugin>
       <groupId>org.apache.maven.plugins</groupId>
       <artifactId>maven-checkstyle-plugin</artifactId>
