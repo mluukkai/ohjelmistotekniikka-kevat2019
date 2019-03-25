@@ -62,4 +62,4 @@ Arvostelussa kiinnitetään huomiota seuraaviin seikkoihin
 
 Varmista, että palautusrepositorioosi on mahdollista tehdä issueita, eli repositorion _Settings_ näyttää seuraavalta
 
-<img src="https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/issuet.png" width="750">
+<img src="https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/issuet.png" width="750">
