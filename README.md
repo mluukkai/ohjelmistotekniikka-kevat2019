@@ -65,6 +65,13 @@ Luokka BK107
 | 12 - 14 | | Atte | Erkka | 
 | 14 - 16 | | Kevin | Jussi | Maaret | Virva
 
+#### Pajaohjauksen poikkeukset
+
+Päivien 27.3 ja 3.4 kello 10-12 pajaohjaukset siirretty päiville 28.3 ja 4.4 aikavälille 12-14, jonka lisäksi ne ovat luokassa B221 eli yläpajassa.
+Tämän lisäksi myös 2.4 kello 10-12 paja siirretty yläpajaan.
+
+Nämä muutokset johtuvat siitä, että alapajassa järjestetään samaan aikaan ohjelmaa jonka kanssa ei ole pajaohjausta mahdollista pitää.
+
 ## Aikataulu 
 
 ### viikko 1
