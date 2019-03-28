@@ -18,7 +18,7 @@ Alla luetellaan Clean Code -periaatteita noudattavan koodin laatuvaatimukset. Oh
 **Huomaa:** tee uudelleennimeäminen NetBeansin Refactor/rename-ominaisuuden avulla, ks kohta [refaktorointi](https://www.cs.helsinki.fi/node/61563)
 
 ####  2. Ei pitkiä metodeja
-* Sovelluslogiikan metodin pituuden tulee ilman erittäin hyvää syytä olla korkeintaan 10 riviä.
+* Sovelluslogiikan metodin pituuden tulee ilman erittäin hyvää syytä olla korkeintaan 20 riviä.
 * Pitkät metodit tulee jakaa useampiin metodeihin. 
 * Yksi metodi - yksi pieni tehtävä. (Single Responsibility)
   * Helpottaa myös testaamista
