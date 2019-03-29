@@ -2,7 +2,7 @@
 
 Tehtävät on tarkoitus tehdä joko pajassa tai omatoimisesti. Tehtävien palautuksen deadline on *tiistaina 2.4. klo 23:59*
 
-Tehtävät palautetaan Githubin avulla Labtoolin rekisteröimääri repositorioon.
+Tehtävät palautetaan Githubin avulla Labtooliin rekisteröimääsi repositorioon.
 
 Muista pushata tehtävät GitHubiin ennen viikkodeadlinea.
   
