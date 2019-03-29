@@ -16,7 +16,7 @@ Tehtävänäsi on lukea läpi toisen opiskelijan harjoitustyö ja antaa siitä r
   * Pura projekti
   * Voit halutessasi kloonata repositorion koneellesi
 
-<img src="https://raw.githubusercontent.com/mluukkai/Ohjelmistotekniikka2018/master/web/images/review1.png" width="700">
+<img src="https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/review1.png" width="700">
 
 
 * Aloita lukemalla projektin vaatimusmäärittely
@@ -26,7 +26,7 @@ Tehtävänäsi on lukea läpi toisen opiskelijan harjoitustyö ja antaa siitä r
   * Ole sinnikäs: kaikkea ei aina osaa, eikä tarvitsekaan ymmärtää!
   * Haastavin osuus lienee luokkien suhde toisiinsa. Käytä hyväksesi koodista tehtyjä luokkakaavioita
 
-Kun olet tutustunut riittävän tarkasti katselmoitavaan projektiin, on aika antaa toiselle koodista palaute. Palautteessa ei tarvitse ottaa kantaa ohjelman dokumentointiin, ulkonäköön tai toimivuuteen. Tärkeintä on kiinnittää huomiota Ohjelmoinnin perusteissa ja Ohjelmoinnin jatkokurssilla opittuihin hyviin käytänteisiin sekä tällä kurssilla noudatettaviin [koodin laatuvaatimuksiin](https://github.com/mluukkai/Ohjelmistotekniikka2018/blob/master/web/koodin_laatuvaatimukset.md).
+Kun olet tutustunut riittävän tarkasti katselmoitavaan projektiin, on aika antaa toiselle koodista palaute. Palautteessa ei tarvitse ottaa kantaa ohjelman dokumentointiin, ulkonäköön tai toimivuuteen. Tärkeintä on kiinnittää huomiota Ohjelmoinnin perusteissa ja Ohjelmoinnin jatkokurssilla opittuihin hyviin käytänteisiin sekä tällä kurssilla noudatettaviin [koodin laatuvaatimuksiin](https://github.com/mluukkai/ohjelmistotekniikka-kevat2019/blob/master/web/koodin_laatuvaatimukset.md).
 
 ## Palautteenanto
 
