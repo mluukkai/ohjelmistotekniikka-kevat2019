@@ -67,10 +67,7 @@ Luokka BK107
 
 #### Pajaohjauksen poikkeukset
 
-Päivien 27.3. ja 3.4. kello 10-12 pajaohjaukset siirretty päiville 28.3. ja 4.4. aikavälille 12-14, jonka lisäksi ne ovat luokassa B221 eli yläpajassa.
-Tämän lisäksi myös 2.4. kello 10-12 ja 12-14 pajat siirretty yläpajaan.
-
-Nämä muutokset johtuvat siitä, että alapajassa järjestetään samaan aikaan ohjelmaa jonka kanssa ei ole pajaohjausta mahdollista pitää.
+Tiistaina 9.4 on ylimääräinen paja 16-18, sama paikka kuin yleensäkin eli alapaja luokka BK107.
 
 ## Aikataulu 
 
