@@ -7,7 +7,7 @@ Kurssilla tapahtuvan katselmoinnin perimmäinen tarkoitus on oppia hahmottamaan 
 
 ## Ohjeet
 
-Katselmointi alkaa xxx. klo 23:59, jonka jälkeen _viimeistään_ näet sinulle osoitetun katselmointikohteen repositoriolinkin labtoolista 
+Katselmointi alkaa 19.4. klo 23:59, jonka jälkeen _viimeistään_ näet sinulle osoitetun katselmointikohteen repositoriolinkin labtoolista 
 
 Tehtävänäsi on lukea läpi toisen opiskelijan harjoitustyö ja antaa siitä rakentavaa palautetta. Ohjelmaa kannattaa kokeilla myös suorittaa.
 
