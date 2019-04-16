@@ -67,7 +67,7 @@ Luokka BK107
 
 #### Pajaohjauksen poikkeukset
 
-Tiistaina 9.4 on ylimääräinen paja 16-18, sama paikka kuin yleensäkin eli alapaja luokka BK107.
+Pajaohjausta ei ole tarjolla pääsiäisen opetustauolla 18.4. - 24.4. eikä vappuna 30.4. ja 1.5.
 
 ## Aikataulu 
 
