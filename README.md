@@ -69,6 +69,8 @@ Luokka BK107
 
 Pajaohjausta ei ole tarjolla pääsiäisen opetustauolla 18.4. - 24.4. eikä vappuna 30.4. ja 1.5.
 
+Perjantain 3.5. pajaohjaus siirretty ajalle kello 10-12 
+
 ## Aikataulu 
 
 ### viikko 1
