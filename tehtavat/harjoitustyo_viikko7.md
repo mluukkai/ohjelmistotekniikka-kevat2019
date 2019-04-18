@@ -11,6 +11,8 @@ Loppupalautuksen oletetaan sisältävän toimivan ohjelman, testien, konfiguraat
 
 **Päivitä viikolla 2 tehty alustava vaatimusmäärittely vastaamaan ohjelman lopullisen version toiminnallisuutta.**
 
+**Päivitä myös viimeistään tässä vaiheessa Labtooliin projektisi nimi vastaamaan projektin aihetta.**
+
 Lue huolellisesti [arvosteluperusteista](https://github.com/mluukkai/ohjelmistotekniikka-kevat2019/blob/master/web/arvosteluperusteet.md) mitä loppupalautuksen oletetaan sisältävän dokumentaation ja ohjelmiston osalta!
 
 Dokumentteihin kannattaa ottaa mallia [referenssisovelluksen](https://github.com/mluukkai/OtmTodoApp) dokumenteista.
