@@ -43,6 +43,6 @@ Seuraavien kohtien puutteet vähentävät pisteitä
   - tiedosto on kurssin tämän vaiheen osalta relevantin sisällön suhteen samankaltainen  kuin [referenssisovelluksen](https://github.com/mluukkai/OtmTodoApp) README.md
   - kaikki ylimääräinen, mm. linkit laskareihin on poistettu 
 - Repositorio siisti
-  - ei ylimääräistä tavaraa (mm. hakemistoa target)
+  - ei ylimääräistä tavaraa (mm. hakemistoa target/ tai tietokantatiedoistoja)
   - laskarit jätetään hakemiston _laskarit_ alle
   - järkevä .gitignore-tiedosto olemassa
