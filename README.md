@@ -75,7 +75,7 @@ Perjantain 3.5. pajaohjaus siirretty ajalle kello 10-12
 
 ### viikko 1
 
-Palautuksen deadline ti 19.3 klo 23:59
+Palautuksen deadline ti 19.3. klo 23:59
 
 - Maanantaina 11.3. klo 14-16 kurssin aloitustilaisuus salissa A111
 - Komentorivi- ja Git-harjoittelu (2p)
@@ -84,7 +84,7 @@ Palautuksen deadline ti 19.3 klo 23:59
 
 ### viikko 2
 
-Palautuksen deadline ti 26.3 klo 23:59
+Palautuksen deadline ti 26.3. klo 23:59
 
 - Harjoitustyön aiheen alustava määrittelydokumentti (1p)
   - katso tarkemmin [täältä](https://github.com/mluukkai/ohjelmistotekniikka-kevat2019/blob/master/tehtavat/harjoitustyo_viikko2.md) 
@@ -102,7 +102,7 @@ Palautuksen deadline ti 2.4. klo 23:59
 
 ### viikko 4
 
-Palautuksen deadline ti 9.4 klo 23:59
+Palautuksen deadline ti 9.4. klo 23:59
 
 - Harjoitustyö (3p)
   - Ohjelman perustoiminnallisuus 
@@ -113,7 +113,7 @@ Palautuksen deadline ti 9.4 klo 23:59
 
 ### viikko 5
 
-Palautuksen deadline ti 16.4 klo 23:59
+Palautuksen deadline ti 16.4. klo 23:59
 
 - Harjoitustyö (3p)
   - Release 1 
@@ -125,7 +125,7 @@ Palautuksen deadline ti 16.4 klo 23:59
 
 ### viikko 6
 
-Palautuksen deadline pe 26.4 klo 23:59
+Palautuksen deadline pe 26.4. klo 23:59
 
 - Harjoitustyö (3p)
   - Release 2
@@ -136,6 +136,6 @@ Palautuksen deadline pe 26.4 klo 23:59
 
 ### viikko 7
 
-Lopullisen palautuksen deadline pe 3.5 klo 23:59
+Lopullisen palautuksen deadline su 5.5. klo 23:59
 
 - [loppupalautuksen ohjeet](https://github.com/mluukkai/ohjelmistotekniikka-kevat2019/blob/master/tehtavat/harjoitustyo_viikko7.md) 
